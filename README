@@ -1,5 +1,7 @@
 Read it first : https://github.com/android-rpi/local_manifests/tree/arpi-11
 
+# This repo has been updated to work for AOSP Auto according to https://grapeup.com/blog/android-automotive-os-on-raspberry-pi-4b/#
+
 # Build Kernel
   $ sudo apt install gcc-aarch64-linux-gnu libssl-dev bc
   $ cd kernel/arpi
@@ -10,6 +12,9 @@ Read it first : https://github.com/android-rpi/local_manifests/tree/arpi-11
 
 # Patch framework source
   https://github.com/android-rpi/device_arpi_rpi4/wiki/arpi-11-:-framework-patch
+  
+  Or apply local patch aosp_arpi11.patch on main folder
+  
 
 # Build Android source
  Continue build referring to http://source.android.com/source/building.html
