@@ -63,7 +63,7 @@
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <item>com.android.location.fused</item>
     </string-array>
-    <bool name=”config_showNavigationBar”>true</bool> <!-- enable software navigation bar, as there is no hardwave one -->
-    <bool name=”config_enableMultiUserUI”>true</bool> <!-- enable multi-user, as AAOS uses background processes called in another sessions -->
-    <integer name=”config_multiuserMaximumUsers”>8</integer> <!-- set maximum user count, required by the previous one -->
+    <bool name="config_showNavigationBar">true</bool> <!-- enable software navigation bar, as there is no hardwave one -->
+    <bool name="config_enableMultiUserUI">true</bool> <!-- enable multi-user, as AAOS uses background processes called in another sessions -->
+    <integer name="config_multiuserMaximumUsers">8</integer> <!-- set maximum user count, required by the previous one -->
 </resources>
